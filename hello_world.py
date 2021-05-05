@@ -27,8 +27,8 @@ class Class:
             self.big_A_to_big_Z.append(chr(integer))
 
     def takeLetter(self):
-        takeYourCHance = ''.join(choice(self.big_A_to_big_Z))
-        return takeYourCHance
+        takeYourChance = ''.join(choice(self.big_A_to_big_Z))
+        return takeYourChance
 
     def bruteForce(self):
         while self.check:
